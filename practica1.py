@@ -9,10 +9,10 @@ class Persona:
      def get_nombre(self):
         return self.__nombre
 
-    def get_edad(self):
+     def get_edad(self):
         return self.__edad
     
-    def get_altura(self):
+     def get_altura(self):
         return self.__altura
     
      def get_peso(self):
@@ -21,8 +21,11 @@ class Persona:
      def get_ciudad(self):
         return self.__ciudad
 
-    def set_nombre(self, nombre):
+     def set_nombre(self, nombre):
         self.__nombre = nombre
 
      def set_edad(self, edad):
         self.__edad = edad
+
+     def set_altura(self, altura):
+        self.__altura = altura

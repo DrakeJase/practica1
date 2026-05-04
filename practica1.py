@@ -8,3 +8,6 @@ class Persona:
 
      def get_nombre(self):
         return self.__nombre
+
+    def get_edad(self):
+        return self.__edad 

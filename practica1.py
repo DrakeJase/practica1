@@ -41,3 +41,6 @@ class Persona:
 
     def calcular_imc(self):
         return self._peso / (self._altura ** 2)
+
+    def es_mayor_edad(self):
+        return self.__edad >= 18

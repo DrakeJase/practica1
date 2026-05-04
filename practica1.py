@@ -35,3 +35,9 @@ class Persona:
 
     def set_ciudad(self, ciudad):
         self.__ciudad = ciudad
+
+
+# Metodos 
+
+    def calcular_imc(self):
+        return self._peso / (self._altura ** 2)

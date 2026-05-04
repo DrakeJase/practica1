@@ -20,3 +20,6 @@ class Persona:
 
      def get_ciudad(self):
         return self.__ciudad
+
+    def set_nombre(self, nombre):
+        self.__nombre = nombre

@@ -17,3 +17,6 @@ class Persona:
     
      def get_peso(self):
         return self.__peso
+
+     def get_ciudad(self):
+        return self.__ciudad

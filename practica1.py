@@ -23,3 +23,6 @@ class Persona:
 
     def set_nombre(self, nombre):
         self.__nombre = nombre
+
+     def set_edad(self, edad):
+        self.__edad = edad

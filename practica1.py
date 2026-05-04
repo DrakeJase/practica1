@@ -44,3 +44,6 @@ class Persona:
 
     def es_mayor_edad(self):
         return self.__edad >= 18
+
+    def info(self):
+        return f"Nombre: {self._nombre}, Edad: {self.edad}, Ciudad: {self._ciudad}"

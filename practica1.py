@@ -10,4 +10,7 @@ class Persona:
         return self.__nombre
 
     def get_edad(self):
-        return self.__edad 
+        return self.__edad
+    
+    def get_altura(self):
+        return self.__altura

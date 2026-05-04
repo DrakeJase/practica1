@@ -1,5 +1,5 @@
 class Persona:
-    def __init__(self, nombre, edad, altura, peso, ciudad):
+    def _init_(self, nombre, edad, altura, peso, ciudad):
         self.__nombre = nombre
         self.__edad = edad
         self.__altura = altura
@@ -36,9 +36,6 @@ class Persona:
     def set_ciudad(self, ciudad):
         self.__ciudad = ciudad
 
-
-# Metodos 
-
     def calcular_imc(self):
         return self._peso / (self._altura ** 2)
 
@@ -47,3 +44,10 @@ class Persona:
 
     def info(self):
         return f"Nombre: {self._nombre}, Edad: {self.edad}, Ciudad: {self._ciudad}"
+
+# PRUEBA
+p = Persona("Juan", 20, 1.75, 70, "Monterrey")
+
+print(p.info())
+print("IMC:", p.calcular_imc())
+print("Mayor de edad:", p.es_mayor_edad())

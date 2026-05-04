@@ -29,3 +29,6 @@ class Persona:
 
      def set_altura(self, altura):
         self.__altura = altura
+
+     def set_peso(self, peso):
+        self.__peso = peso

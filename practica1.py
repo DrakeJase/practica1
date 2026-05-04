@@ -5,3 +5,6 @@ class Persona:
         self.__altura = altura
         self.__peso = peso
         self.__ciudad = ciudad
+
+     def get_nombre(self):
+        return self.__nombre

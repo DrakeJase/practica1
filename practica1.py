@@ -6,29 +6,32 @@ class Persona:
         self.__peso = peso
         self.__ciudad = ciudad
 
-     def get_nombre(self):
+    def get_nombre(self):
         return self.__nombre
 
-     def get_edad(self):
+    def get_edad(self):
         return self.__edad
     
-     def get_altura(self):
+    def get_altura(self):
         return self.__altura
     
-     def get_peso(self):
+    def get_peso(self):
         return self.__peso
 
-     def get_ciudad(self):
+    def get_ciudad(self):
         return self.__ciudad
 
-     def set_nombre(self, nombre):
+    def set_nombre(self, nombre):
         self.__nombre = nombre
 
-     def set_edad(self, edad):
+    def set_edad(self, edad):
         self.__edad = edad
 
-     def set_altura(self, altura):
+    def set_altura(self, altura):
         self.__altura = altura
 
-     def set_peso(self, peso):
+    def set_peso(self, peso):
         self.__peso = peso
+
+    def set_ciudad(self, ciudad):
+        self.__ciudad = ciudad

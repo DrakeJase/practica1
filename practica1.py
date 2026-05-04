@@ -14,3 +14,6 @@ class Persona:
     
     def get_altura(self):
         return self.__altura
+    
+     def get_peso(self):
+        return self.__peso
